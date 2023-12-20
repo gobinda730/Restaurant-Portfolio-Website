@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="FontAwesome/css/all.css">
+    <script defer src="JS/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white ms-2" href="#">
+                <i class="fa-solid fa-utensils fs-1"></i>
+            </a>
+            <button class="navbar-toggler text-white fs-2" id="navButton" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active navLinkBtn" aria-current="page" href="#welcomeHome">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinkBtn" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinkBtn" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinkBtn" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinkBtn" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light ms-3" href="#bookTable">Book a Table</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- WelcomeHome Div  -->
+    <div class="container-fluid bg-dark welcomeDiv" id="welcomeHome">
+        <div class="container-fluid py-5 welcomeDiv2 ">
+            <div class="row align-items-center g-5 m-auto pb-5">
+                <div class="col text-center text-white">
+                    <h1 class="display-1 fw-bolder mb-3">Enjoy Our <br> Delicious Meals</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque vel,
+                        facilis vero voluptas ullam ipsam, temporibus est voluptatibus et itaque illum earum magni quis
+                        distinctio dolores, similique nam doloribus blanditiis molestias perferendis unde ad quasi!
+                        Exercitationem
+                    <p>
+                        <a class="btn btn-outline-light mb-5" href="#bookTable">Book a Table</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Div -->
+    <div class="container-fluid py-5" id="about">
+
+        <div class="sectionHeading container text-center text-dark border-5 pt-3">
+            <span class="Heading fs-1 ">About Us</span>
+        </div>
+        <div class="row container px-5 m-auto g-5 justify-content-center align-items-center ">
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/pngfood.png" alt="image">
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <h2>We pride ourselves on making quality foods from the best ingredients</h2>
+                </div>
+                <div>
+                    <p>Here passion meets plate. Our chefs curate culinary magic with fresh, locally sourced
+                        ingredients, crafting dishes that elevate your dining experience. As a family-owned gem, we
+                        invite you to savor moments of joy, exceptional service, and unforgettable flavors in a
+                        welcoming atmosphere. Join us today!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Services Div  -->
+    <div class="container-fluid py-5" id="services">
+
+        <div class="sectionHeading container text-center text-dark border-5 pt-3">
+            <span class="Heading fs-1 pb-2">Services</span>
+        </div>
+        <div class="container pt-5">
+            <div class="row g-4 text-center justify-content-center">
+                <div class="col-sm-6 col-md-5 col-lg-3 ">
+                    <div class="homeCard card p-4">
+                        <i class="fa-solid fa-user-tie fa-4x serviceIcon"></i>
+                        <h3 class="card-title pt-3 text-dark-emphasis">Master Chefs</h3>
+                        <p class="card-text">Expert chefs create delicious dishes with skill, passion, and creativity.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-3 ">
+                    <div class="homeCard card p-4">
+                        <i class="fa-solid fa-bowl-food fa-4x serviceIcon"></i>
+                        <h3 class="card-title pt-3 text-dark-emphasis">Quality Foods</h3>
+                        <p class="card-text ">Delicious, fresh, and wholesome foods crafted with care for enjoyment.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-3 ">
+                    <div class="homeCard card p-4">
+                        <i class="fa-solid fa-bookmark fa-4x serviceIcon"></i>
+                        <h3 class="card-title pt-3 text-dark-emphasis ">table booking</h3>
+                        <p class="card-text ">Secure your spot, reserve a table for a delightful dining experience.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-3 ">
+                    <div class="homeCard card p-4">
+                        <i class="fa-solid fa-headset fa-4x serviceIcon"></i>
+                        <h3 class="card-title pt-3 text-dark-emphasis ">24/7 Service</h3>
+                        <p class="card-text ">Always open, reliable service around the clock for your convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Menu Div  -->
+    <div class="container-fluid py-5" id="menu">
+
+        <!-- Menu Heading  -->
+        <div class="sectionHeading container text-center text-dark border-5 pt-3">
+            <span class="Heading fs-1 pb-2">Popular Menu</span>
+        </div>
+        <!-- Menu Contents  -->
+        <div class="container pt-5">
+            <div class="row g-4 text-center justify-content-center">
+
+                <div class="col-sm-6 col-md-5 col-lg-3">
+                    <div class="card menuCard">
+                        <div class="imgDiv">
+                            <img class="img-fluid" src="images/foods/Biryani1.avif" alt="image">
+                        </div>
+                        <div class="card-body">
+                            <h3>Special Biryani</h3>
+                            <p class="card-text">Savory rice dish with aromatic spices, meat, and flavorful ingredients.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-3">
+                    <div class="card menuCard">
+                        <div class="imgDiv">
+                            <img class="img-fluid" src="images/foods/BurgerCombo.avif" alt="image">
+                        </div>
+                        <div class="card-body">
+                            <h3>Burger Combo</h3>
+                            <p class="card-text">Juicy, flavorful burger delight, a tasty classic for instant satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-3">
+                    <div class="card menuCard">
+                        <div class="imgDiv">
+                            <img class="img-fluid" src="images/foods/Noodle3.avif" alt="image">
+                        </div>
+                        <div class="card-body">
+                            <h3>Spicy Noodles</h3>
+                            <p class="card-text">Fiery, flavorful noodles with a kick of delightful spiciness to savor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-3">
+                    <div class="card menuCard">
+                        <div class="imgDiv">
+                            <img class="img-fluid" src="images/foods/Pizza.avif" alt="image">
+                        </div>
+                        <div class="card-body">
+                            <h3>Veggie Pizza</h3>
+                            <p class="card-text">Hot, cheesy, and delicious; a slice of pure comfort and enjoyment.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Testimonials Div  -->
+    <div class="container-fluid testimonialDiv py-5" id="testimonials">
+
+        <!-- Testimonials Heading  -->
+        <div class="sectionHeading container text-center text-dark pt-3">
+            <span class="Heading fs-1 pb-2">Testimonials</span>
+        </div>
+        <!-- Testimonials contents  -->
+        <div class="container-fluid">
+            <div class="row g-3 px-3 mt-5 ">
+
+                <div class="col-sm-8 col-md-6 col-lg-4 m-auto">
+                    <div class="card mb-3">
+                        <div class="row p-3">
+
+                            <div class="col-4 p-1 text-center m-auto">
+                                <div class="imageDiv p-1 ">
+                                    <img class="img-fluid " src="images/Users/user1.jpg" alt="image">
+                                </div>
+                                <h6 class="card-title">Chris (Thor)</h6>
+                            </div>
+
+                            <div class="col-8 p-1 m-auto">
+                                <div class="cReview p-2 rounded-2 mb-2">
+                                    <p class="card-text"><span class="fa-solid fa-quote-left me-3"></span>Deliciously
+                                        crafted dishes, bursting with flavor. A culinary delight awaits!
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-md-6 col-lg-4 m-auto">
+                    <div class="card mb-3">
+                        <div class="row p-3">
+
+                            <div class="col-4 p-1 text-center ">
+                                <div class="imageDiv p-1 ">
+                                    <img class="img-fluid " src="images/Users/user2.webp" alt="image">
+                                </div>
+                                <h6 class="card-title ">Stephen Strange</h6>
+                            </div>
+
+                            <div class="col-8 p-1">
+                                <div class="cReview p-2 rounded-2 mb-2">
+                                    <p class="card-text"><span class="fa-solid fa-quote-left me-3"></span>Deliciously
+                                        crafted dishes, bursting with flavor. A culinary delight awaits!
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-4 m-auto">
+                    <div class="card mb-3">
+                        <div class="row p-3">
+
+                            <div class="col-4 p-1 text-center ">
+                                <div class="imageDiv p-1 ">
+                                    <img class="img-fluid " src="images/Users/user3.webp" alt="image">
+                                </div>
+                                <h6 class="card-title">Tony Stark</h6>
+                            </div>
+
+                            <div class="col-8 p-1">
+                                <div class="cReview p-2 rounded-2 mb-2">
+                                    <p class="card-text"><span class="fa-solid fa-quote-left me-3"></span>Deliciously
+                                        crafted dishes, bursting with flavor. A culinary delight awaits!
+                                    </p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BookTable Div  -->
+    <div class="container_fluid py-5" id="bookTable">
+
+        <!-- BookTable Heading  -->
+        <div class="sectionHeading container text-center text-dark border-5 mb-5 pt-3">
+            <span class="Heading fs-1 pb-2">Book a Table</span>
+        </div>
+
+        <!-- BookTable contents  -->
+        <div class="row" id="bookingForm">
+            <form class="col-sm-8 col-md-8 col-lg-6 g-3 p-5 m-auto bg-dark rounded-4">
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="input-group">
+                            <input id="name" class="form-control mb-3" type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="input-group">
+                            <input id="number" class="form-control mb-3" type="number" placeholder="Contact number" required>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="input-group">
+                            <input id="date" class="form-control mb-3" type="date" required>
+                        </div>
+                        <div class="input-group">
+                            <select id="guest" class="form-control mb-3" name="guestNumber" id="" required>
+                                <option value="0">--select guest--</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <textarea class="form-control" name="specialRequest" rows="2"
+                            placeholder="Special Request"></textarea>
+                    </div>
+                </div>
+
+                <div class="input-group justify-content-center">
+                    <button class="form-control btn btn-outline-secondary" type="submit"
+                        id="submitBtn">SUBMIT</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer Div  -->
+    <div class="container-fluid py-5 bg-dark" id="footerDiv">
+
+        <div class="container text-start">
+            <div class="row ">
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="fs-3 text-light">References</h1>
+                    <ul class="list-unstyled ps-4">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="bookTable.html">BookTable</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="fs-3 text-light">Locations</h1>
+                    <ul class="list-unstyled ps-2">
+                        <li><a href="#">Sambalpur</a></li>
+                        <li><a href="#">Bhubaneswar</a></li>
+                        <li><a href="#">Kolkata</a></li>
+                        <li><a href="#">Bangalore</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="fs-3 text-light">Contact Us</h1>
+                    <ul class="list-unstyled ps-1">
+                        <li><a href="#">+911234567890</a></li>
+                        <li><a href="#">example@gmail.com</a></li>
+                        <li><a href="#">example2@gmail.com</a></li>
+                        <li><a href="#">Bhubaneswar- 751020</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="fs-3 text-light">Follow Us</h1>
+                    <ul class="list-unstyled ps-4">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container text-secondary text-center pt-5">
+            <h3 class="fs-4"> &copy; copyright:2023 @ all rights reserved by mr. Gobinda</h3>
+        </div>
+
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

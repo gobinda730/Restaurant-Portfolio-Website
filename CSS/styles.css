@@ -1,0 +1,149 @@
+/* Common for all */
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth !important;
+}
+body{
+    overflow-x: hidden !important;
+    background-color: #ebf0f6 !important;
+}
+:root{
+    --bg-dark: linear-gradient(45deg,rgb(0, 0, 50),rgb(39, 0, 44),rgb(0, 0, 60)) !important; 
+}
+
+
+/* Navbar  */
+.navbar{
+    z-index: 10 !important;
+}
+.navStyle{
+    background: linear-gradient(45deg,rgb(0, 0, 50),rgb(39, 0, 44),rgb(0, 0, 60)) !important; 
+    box-shadow: 1px 1px 5px black !important;
+}
+.bg-dark{
+    background: linear-gradient(45deg,rgb(0, 0, 50),rgb(39, 0, 44),rgb(0, 0, 60)) !important;
+}
+.navLinkBtn{
+    color: rgba(192, 192, 192, 0.8) !important;
+}
+.navLinkBtn:hover{
+    color: white !important;
+    border-bottom: 2px !important;
+}
+
+
+/* Welcome Div Styles  */ 
+.welcomeDiv{
+    background-image: url(../images/foods/Pizza.avif) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 0 !important;
+}
+.welcomeDiv2{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* About  */
+.sectionHeading span{
+    position: relative;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.sectionHeading span::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: rgb(55, 20, 138) !important;
+  }
+
+
+/* Services Styles */
+.serviceIcon{
+    color: rgb(0, 0, 70) !important;
+}
+
+.sectionHeading{
+    color: rgb(0, 0, 60);
+}
+.card{
+    box-sizing: border-box !important;
+    box-shadow: 0px 0px 2px grey !important;
+    transition: all 0.2s linear !important;
+    background-color: white !important;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 28px, rgba(0, 0, 0, 0.22) 0px 0px 10px !important; 
+    cursor: pointer;
+    background-color: white !important;
+    /* padding-bottom: 30px !important; */
+}
+
+/* Menu Section  */
+.imgDiv{
+    height: 170px !important;
+}
+.imgDiv img{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Testimonials Card  */
+.fa-quote-left{
+    font-size: xx-large !important;
+    color: #555 !important;
+}
+.cReview{
+    background-color: lightgray !important;
+}
+
+.imageDiv{
+    height: 100px !important;
+    width: 100px !important;
+}
+.testimonialDiv img{
+    overflow: hidden !important;
+    border-radius: 100% !important;
+    height: 100%;
+    width: 100%;
+}
+
+/* Form  */
+form{
+    box-shadow: 2px 2px 8px black !important;
+}
+form:hover{
+    box-shadow: 3px 3px 16px black !important;
+}
+button[type=submit]:hover{
+    background-color: rgb(107, 73, 142) !important;
+    color: white !important;
+}
+#booked{
+    box-shadow: 2px 2px 16px grey !important;
+}
+
+/* Footer Styles */
+
+#footerDiv a{
+    color: rgba(192, 192, 192, 0.751) !important;
+    text-decoration: none !important;
+}
+#footerDiv a:hover{
+    text-decoration: underline !important;
+    color: white !important;
+}
+#footerDiv ul{
+    list-style-type: none !important;
+}
+#footerDiv h1{
+    font-style: italic !important;
+    color: white !important;
+}
